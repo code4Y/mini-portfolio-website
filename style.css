@@ -108,3 +108,39 @@ p {
   justify-content: space-evenly;
 }
 
+.msg button {
+  padding: 10px 14px;
+}
+
+i {
+  font-size: 1.4rem;
+}
+
+.project-skill-switch {
+  margin: 50px;
+  display: flex;
+  justify-content: space-between;
+  background: #f4f4f4;
+  width: 320px;
+  line-height: 40px;
+  border-radius: 7px;
+}
+
+.project-skill-switch a {
+  text-decoration: none;
+  color: #121212;
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 0 40px;
+  margin: 5px;
+}
+
+.Projects,
+.Skills {
+  margin: 5px;
+}
+
+.active {
+  background: #fff;
+  border-radius: 7px;
+}
