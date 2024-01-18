@@ -176,3 +176,19 @@ i {
 .active .slider {
   left: calc(50% + 6px); 
 }
+
+.project-row {
+  min-width: 400px;
+  max-width: 600px;
+  height: 400px;
+  display: flex;
+justify-content: space-between;
+}
+
+.project1,
+.project2 {
+  width: 190px;
+  height: 150px;
+  border-radius: 10px;
+  background: #f4f4f4;
+}
