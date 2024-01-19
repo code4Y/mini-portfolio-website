@@ -178,7 +178,7 @@ i {
 }
 
 .project-row {
-  min-width: 400px;
+  min-width: 625px;
   max-width: 600px;
   height: 400px;
   display: flex;
@@ -187,8 +187,45 @@ justify-content: space-between;
 
 .project1,
 .project2 {
-  width: 190px;
-  height: 150px;
+  width: 300px;
+  height: 180px;
   border-radius: 10px;
   background: #f4f4f4;
+  box-shadow: 2px 4px 12px #ccc;
+}
+
+.project1 {
+  background-image: url("https://img.freepik.com/free-vector/gradient-metaverse-webinar-template_23-2149448310.jpg?w=900&t=st=1705686959~exp=1705687559~hmac=18d1a7b7891e35e386d1a67cd6f4615a4b8df7315bc1a964e3adddd903237502");
+  background-size: cover;
+}
+
+.project2 {
+  background-image: url("https://img.freepik.com/free-vector/flat-design-minimal-technology-web-template_23-2149117703.jpg?w=900&t=st=1705687145~exp=1705687745~hmac=51b02e7b3a9d3aa90f8bec30b4d9bc60810f494d985946352fc3ae78f313d735");
+  background-size: cover;
+}
+
+.skill-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+}
+
+.hidden {
+  display: none;
+}
+
+.skill-section span {
+  padding: 10px;
+  margin: 5px 10px;
+  box-shadow: 2px 2px 5px #cccccc8a;
+  border-radius: 7px;
+  font-weight: bold;
+  color: #a2a2a2;
+}
+
+.skill-section span:hover {
+  box-shadow: 3px 3px 6px #ccccccb6;
+  cursor: pointer;
 }
