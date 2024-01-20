@@ -184,6 +184,14 @@ i {
   gap: 25px;
 }
 
+.skill-row {
+  width: 350px;
+  /* line-height: 20px; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
 .proj {
   width: 300px;
   height: 180px;
@@ -214,7 +222,7 @@ i {
   display: none;
 }
 
-.skill-section span {
+.skill-section p {
   padding: 10px;
   margin: 5px 10px;
   box-shadow: 2px 2px 5px #cccccc8a;
@@ -223,7 +231,7 @@ i {
   color: #a2a2a2;
 }
 
-.skill-section span:hover {
+.skill-section p:hover {
   box-shadow: 3px 3px 6px #ccccccb6;
   cursor: pointer;
 }
