@@ -182,11 +182,10 @@ i {
   max-width: 600px;
   height: 400px;
   display: flex;
-justify-content: space-between;
+  justify-content: space-between;
 }
 
-.project1,
-.project2 {
+.proj {
   width: 300px;
   height: 180px;
   border-radius: 10px;
@@ -228,4 +227,21 @@ justify-content: space-between;
 .skill-section span:hover {
   box-shadow: 3px 3px 6px #ccccccb6;
   cursor: pointer;
+}
+
+@media screen and (max-width: 640px) {
+  .project-row {
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .proj {
+    width: 400px;
+    height: 300px;
+  }
 }
