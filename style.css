@@ -95,7 +95,6 @@ p {
   border-radius: 6px;
   border: none;
   cursor: pointer;
-  /* background: transparent; */
 }
 
 .download {
@@ -138,7 +137,7 @@ i {
   display: flex;
   justify-content: space-around;
   background: #f4f4f4;
-  width: 360px;
+  width: 340px;
   line-height: 40px;
   border-radius: 7px;
   position: relative; 
@@ -155,7 +154,7 @@ i {
 
 .Projects,
 .Skills {
-  margin: 6px;
+  margin: 4px;
   padding: 2px 50px;
   position: relative; 
   cursor: pointer;
@@ -178,11 +177,11 @@ i {
 }
 
 .project-row {
-  min-width: 625px;
   max-width: 600px;
   height: 400px;
   display: flex;
   justify-content: space-between;
+  gap: 25px;
 }
 
 .proj {
@@ -232,16 +231,14 @@ i {
 @media screen and (max-width: 640px) {
   .project-row {
     width: 400px;
-    height: 500px;
+    /* height: 500px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 30px;
   }
   
   .proj {
-    width: 400px;
-    height: 300px;
+    width: 360px;
   }
 }
