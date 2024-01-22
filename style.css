@@ -44,6 +44,10 @@
 .dark-mode .project-skill-switch {
   background: #131a21;
 }
+
+.dark-mode .img {
+  border: 2px solid #131a21;
+}
 /* Darkmode End*/
 
 .img {
