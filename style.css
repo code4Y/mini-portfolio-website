@@ -215,11 +215,10 @@ i {
 }
 
 .project-row {
-  max-width: 600px;
-  height: 400px;
+  max-width: 650px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  gap: 25px;
 }
 
 .skill-row {
@@ -233,6 +232,7 @@ i {
 .proj {
   width: 300px;
   height: 180px;
+  margin: 10px;
   border-radius: 10px;
   background: #f4f4f4;
   box-shadow: 2px 4px 12px #ccc;
