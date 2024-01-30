@@ -123,6 +123,10 @@ p {
   margin-left: 15px;
 }
 
+.down-btn a {
+  text-decoration: none;
+}
+
 .btns button {
   padding: 10px 20px;
   margin: 0;
