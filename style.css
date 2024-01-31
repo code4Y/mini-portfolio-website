@@ -238,6 +238,23 @@ i {
   box-shadow: 2px 4px 12px #ccc;
 }
 
+.proj a {
+  text-decoration: none;
+  color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  font-weight: bold;
+  display: none;
+}
+
+.proj:hover a {
+  display: flex;
+  transform: scale(1.2);
+  transition: 0.5s ease-in;
+}
+
 .project1 {
   background-image: url("https://img.freepik.com/free-vector/gradient-metaverse-webinar-template_23-2149448310.jpg?w=900&t=st=1705686959~exp=1705687559~hmac=18d1a7b7891e35e386d1a67cd6f4615a4b8df7315bc1a964e3adddd903237502");
   background-size: cover;
